@@ -10,6 +10,10 @@ For the detailed info of the design case study, please refer to XX
 
 We encourage you to use pip to install GA-Food on your system.
 
+```bash
+pip install git+git://github.com/zx2012flying/Genetic-Algorithm.git
+```
+
 ## Example
 The following code gives a quick overview how simple it is to implement the Onemax problem optimization with genetic algorithm using DEAP. More examples are provided here.
 
