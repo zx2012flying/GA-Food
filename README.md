@@ -1,4 +1,4 @@
-# Genetic-Algorithm
+# GA-Food
 
 Tailor-made GA algorithm for desinging chocolate chip cookie
 
