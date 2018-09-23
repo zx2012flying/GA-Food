@@ -1,19 +1,19 @@
 # Genetic-Algorithm
-Tailor-made GA algorithm for desinging chocolate chip cookie
 
+Tailor-made GA algorithm for desinging chocolate chip cookie
 
 This GA is based on the DEAP framework (see https://github.com/deap/deap).
 The original algorithm was modified already so that it can be used easily for designing new chocolate chip cookie.
 For the detailed info of the design case study, please refer to XX
 
-Installation
+## Installation
 
 We encourage you to use pip to install GA-Food on your system.
 
-Example
-
+## Example
 The following code gives a quick overview how simple it is to implement the Onemax problem optimization with genetic algorithm using DEAP. More examples are provided here.
 
+```python
 import random
 from deap import creator, base, tools, algorithms
 
@@ -44,3 +44,4 @@ for gen in range(NGEN):
         ind.fitness.values = fit
     population = toolbox.select(offspring, k=len(population))
 top10 = tools.selBest(population, k=10)
+```
