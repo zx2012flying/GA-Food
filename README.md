@@ -11,7 +11,7 @@ For the detailed info of the design case study, please refer to XX
 We encourage you to use pip to install GA-Food on your system.
 
 ```bash
-pip install git+git://github.com/zx2012flying/Genetic-Algorithm.git
+pip install git+git://github.com/zx2012flying/GA-Food.git
 ```
 
 ## Example
